@@ -15,6 +15,6 @@ public class Student extends Person {
     }
 
     public void getStudentSchool() {
-        System.out.println("学生学校");
+        System.out.println("小学生的学校");
     }
 }
