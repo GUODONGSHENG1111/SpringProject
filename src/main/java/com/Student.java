@@ -30,8 +30,12 @@ public class Student extends Person {
     public void getStudentGrade() {
         System.out.println("小学生的成绩");
     }
-    
+
     public void getStudentNum() {
         System.out.println("小学生的学号");
+    }
+
+    public void getStudentAddress() {
+        System.out.println("小学生的地址");
     }
 }
