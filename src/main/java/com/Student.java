@@ -6,6 +6,11 @@ import lombok.Data;
 public class Student extends Person {
     private String school;
 
+    private double grade;
+
+    private String address;
+
+
     public void getInfo() {
         System.out.println("小学生");
     }
@@ -20,5 +25,9 @@ public class Student extends Person {
 
     public void getStudentAge() {
         System.out.println("小学生的年龄");
+    }
+
+    public void getStudentGrade() {
+        System.out.println("小学生的成绩");
     }
 }
