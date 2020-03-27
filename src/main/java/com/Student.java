@@ -8,6 +8,9 @@ public class Student extends Person {
 
     private double grade;
 
+    private String address;
+
+
     public void getInfo() {
         System.out.println("小学生");
     }
