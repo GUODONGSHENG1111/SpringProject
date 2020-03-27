@@ -13,4 +13,8 @@ public class Student extends Person {
     public void getStudentName() {
         System.out.println("学生姓名");
     }
+
+    public void getStudentSchool() {
+        System.out.println("学生学校");
+    }
 }
