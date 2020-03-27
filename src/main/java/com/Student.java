@@ -9,4 +9,8 @@ public class Student extends Person {
     public void getInfo() {
         System.out.println("小学生");
     }
+
+    public void getStudentName() {
+        System.out.println("学生姓名");
+    }
 }
